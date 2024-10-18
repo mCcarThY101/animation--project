@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implement a Sticky SideBar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            border: 2px solid red;
+            display: flex;
+        }
+        .sidebar-nav {
+            width: 25%;
+            height: 100vh;
+            position: sticky;
+            top: 0;
+            left: 0;
+            border: 2px solid green;
+        }
+        .sidebar-nav .nav-links {
+            list-style: none;
+            margin: 4rem 3rem;
+        }
+        .content {
+            width: 70%;
+            border: 2px solid blue;
+            position: relative;
+            top: 0;
+            right: 0;
+
+        }
+    </style>
+</head>
+<body>
+    <!--
+    Assignment Task 3: Build a Sticky Sidebar
+    Objective: Create a sidebar that remains visible as you scroll down the page.
+    Requirement :
+    a). Use position: sticky; for the sidebar.
+    b). Set the top property to define the point where the sidebar should become sticky.
+    c). Add some scrollable content on the page to test the sticky behaviour.
+-->
+    <!--Create a container-->
+    <div class="container"></div>
+    <div class="sidebar-nav"></div>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+</body>
+</html>

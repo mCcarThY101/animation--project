@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-image: url(IMG_1350.WEBP);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    nav{
+        background-color: white;
+        box-shadow: 3px 3px 5px rgba(red, green, blue, alpha);
+}
+    nav ul{
+        width: 100%;
+        list-style: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    nav a{
+        height: 100%;
+        padding: 0  30px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color:black;
+
+    }
+}
